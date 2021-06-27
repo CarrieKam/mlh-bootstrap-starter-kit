@@ -1,18 +1,86 @@
 <!DOCTYPE html>
 <head>
+    <!--This is ur page's title! It's what is shown on Google and in the tab at the top of the screen.-->
     <title>! Put your website's name here </title>
+    <!--CESS is how we style our website! We're including a Boostrap CSS file, as well as one you can edit and make ur own website-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="assets/css/style.css"><!--u can edit this file and include ur own style-->
     
-    <!---- come back to do this!--->
+    <!---- This is some metadata!It allos us to specify useful things, such as keyword--->
     <meta charset="UTF-8">
     <meta name="keyboards" content= "Put ur keywork here!, eg: Carrie Kam">
     <meta name="description" content="Type a description about urself">
     <meta name="author" content="Type ur name here">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-
 </head>
+
+<!--Anything put ur body is visible on ur website-->
 <body>
+   <!--this is ur nav's bar! It shows links at the top of the page-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">❗️ Your website's name</a>
+
+            <!--Ths is some Boostrap magic. It automagically minimises ur nav bar on mobile-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">❗️Link2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">❗️Link2</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <!--This is a container! It automatically pushes ur content in from the sides!-->
+    <div class="container">
+        <h1>This is an example website</h1>
+        
+        <!--This is an example two column layout! It's respose too!-->
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <!--Here's an example carosell! It displays multiple images! You can include ur own!-->
+                <!--❗️ You should swap these to be ur own images!-->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/images/cupDessert.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/macaroon.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/tarts.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                
+                  <!--These are placeholder -->
+                <p>Bacon ipsum dolor amet ball tip tail chislic leberkas chicken picanha tenderloin. Pastrami meatball prosciutto ham porchetta. Chuck sirloin capicola prosciutto hamburger pancetta pork, ground round short ribs frankfurter flank. Corned beef strip steak short loin, chicken ham hock pancetta capicola jerky ham hamburger t-bone ribeye meatball pork loin kevin. Sausage pastrami corned beef ham, ground round kielbasa chicken alcatra t-bone hamburger salami tongue short ribs.</p>
+                <p>Flank bresaola pork chop leberkas landjaeger boudin brisket filet mignon kielbasa bacon pork loin fatback ham hock chicken. Pastrami spare ribs shank, salami andouille picanha fatback kevin tenderloin corned beef. Shoulder prosciutto chislic pastrami ham turducken boudin tri-tip kielbasa pork loin. Salami chicken pastrami landjaeger tail. Fatback brisket doner andouille. Shoulder ground round capicola shank pastrami burgdoggen strip steak. Pork loin cupim burgdoggen swine chuck beef ribs.</p>
+                <p>Venison prosciutto short loin tail bacon burgdoggen boudin short ribs bresaola chuck. Spare ribs tongue short ribs kevin, ham short loin capicola salami flank chicken meatloaf tenderloin chuck pork belly hamburger. Drumstick pig chicken beef turkey shank brisket kielbasa, jowl sirloin porchetta corned beef ham short ribs. Burgdoggen pig andouille shoulder, bacon shank ham cupim. Flank leberkas shankle ham hock meatball. Filet mignon flank strip steak fatback rump tri-tip. Chicken short ribs drumstick strip steak chuck prosciutto ball tip landjaeger pastrami filet mignon capicola sausage burgdoggen bresaola.</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                THIS IS SIDEBAR
+            </div>
+        </div>
+    </div>
+    
+    <!--This is Booststrap's js! Including it is what makes our website's interactive stuff work!-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>

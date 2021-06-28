@@ -5,8 +5,7 @@ height of things, and beyond! The project
 also includes Bootstrap's CSS so you can
 use that without typing it in here! */
 
-/*This is some example custom CSS! It adds a blank line under the carousel*/
-
+/* This is some example custom CSS! It adds a blank line under the carousel! */
 .carousel {
-    color: red
+    margin-bottom: 1em;
 }

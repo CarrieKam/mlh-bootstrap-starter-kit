@@ -1,2 +1,4 @@
-/*Here's an example script! You can include anything u'd like to include on ur website in here! Uncomment the script to have it run*/
+/* Here's an example script! You can include anything you'd like to include
+on your website in here! Uncomment (remove the //) the script to have it run! */
 
+//alert("Ryan Swift smells of BLAHAJ.")

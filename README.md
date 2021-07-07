@@ -1,5 +1,5 @@
 # MLH INIT BOOstrap Starter Pack
-This sis my starter pack that helps people to get into using Boostrap! You can clone it and it will give you a basic Boostrap that you can use for a hackathon!
+This is my starter pack that helps people to get into using Boostrap! You can clone it and it will give you a basic Boostrap that you can use for a hackathon!
 
 Feel free to edit it as u need!
 
